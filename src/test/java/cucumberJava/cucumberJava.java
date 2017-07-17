@@ -43,6 +43,7 @@ public class cucumberJava {
         capabilities.setCapability("platformVersion","5.1.1");
         capabilities.setCapability("browser_Name","Android");
         capabilities.setCapability("app","src/apk/AppiumDemo.apk");
+        capabilities.setCapability("session-override","True");
         try{
           driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
       //      driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);

@@ -2,7 +2,7 @@
 
    Característica: Consulta del saldo bancario
 
-    Esquema del escenario: entrar a la aplicacion con usuario y contraseña correctas
+    Esquema del escenario: entramos a la aplicacion y consultamos el saldo de las cuentas
 
       Dado que me conecto a la aplicacion
       Y para consultar saldo introduzco el Usuario <login> y la Contraseña <pass>
