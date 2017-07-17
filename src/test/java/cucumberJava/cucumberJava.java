@@ -144,7 +144,17 @@ public class cucumberJava {
 
     }
 
+@Y("^para consultar saldo tecleo el Usuario \"([^\"]*)\" y la Contrasena \"([^\"]*)\"$")
 
+public void I_enter_Usuario2_as_and_Contrasena2_as(String arg1, String arg2) throws AWTException {
+
+    driver.findElement(By.id("user")).sendKeys(arg1);
+
+    driver.findElement(By.id("pass")).sendKeys(arg2);
+
+    driver.findElement(By.id("btnLogin")).click();
+
+}
 
     public boolean isElementPresent(By by){
         try {

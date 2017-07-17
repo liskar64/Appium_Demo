@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3544dcff-eafa-4648-b95d-e84630ef78c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Appium_Demo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Appium_Demo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-no-ok.feature" afterPath="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-no-ok.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java" afterPath="$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../Appium_Demo/out/" />
     <ignored path="$PROJECT_DIR$/../Appium_Demo/target/" />
@@ -40,8 +40,18 @@
       <file leaf-file-name="cucumberJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="178">
+              <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consulta-saldo.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/consulta-saldo.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -61,10 +71,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../Appium_Demo/pom.xml" />
-        <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/consulta-saldo.feature" />
-        <option value="$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java" />
         <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature" />
         <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-no-ok.feature" />
+        <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/consulta-saldo.feature" />
+        <option value="$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java" />
       </list>
     </option>
   </component>
@@ -531,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500286707189</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pruebo capability nueva">
+      <created>1500286881162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1500286881162</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -755,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/consulta-saldo.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/apk/AppiumDemo.apk">
       <provider selected="true" editor-type-id="apk-viewer">
         <state />
@@ -792,10 +801,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/consulta-saldo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="178">
+          <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
           <folding />
         </state>
       </provider>
