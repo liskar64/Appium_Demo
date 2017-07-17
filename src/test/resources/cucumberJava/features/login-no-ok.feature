@@ -6,13 +6,13 @@
 
       Dado que me conecto a la aplicacion
 
-      Cuando introduzco el Usuario <login> y la Contraseña <pass>
+      Cuando introduzco el Usuario <login> y la Contrasena <pass>
 
       Entonces sale mensaje de error y no podemos entrar
 
       Ejemplos:
-      |login      |pass        |
-      |"tryte"    |"tryte"     |
-      |""         |"tryte"     |
-      |"tryte"    |""          |
-      |""         |""          |
+      |login|pass|
+      |"tryte"|"tryte"|
+      |""|"tryte"|
+      |"tryte"|""|
+      |""|""|
