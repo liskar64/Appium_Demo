@@ -12,4 +12,4 @@
 
 Ejemplos:
       |login|pass|
-      |77001622z|Ibermatica|
+      |"77001622z"|"Ibermatica"|
