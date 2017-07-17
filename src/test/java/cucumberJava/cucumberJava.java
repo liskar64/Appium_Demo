@@ -59,7 +59,7 @@ public class cucumberJava {
 
 
 
-    @Cuando("^introduzco el Usuario \"([^\"]*)\" y la Contraseña \"([^\"]*)\"$")
+    @Cuando("^introduzco el Usuario \"([^\"]*)\" y la Contrasena \"([^\"]*)\"$")
     public void I_enter_Usuario_as_and_Contrasena_as(String arg1, String arg2) throws AWTException {
 
         driver.findElement(By.id("user")).sendKeys(arg1);
