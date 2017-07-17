@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3544dcff-eafa-4648-b95d-e84630ef78c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Appium_Demo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Appium_Demo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java" afterPath="$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature" afterPath="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/../Appium_Demo/out/" />
@@ -18,21 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login-ok.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login-ok.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cucumberJava.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cucumberJava.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+            <state relative-caret-position="336">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +53,8 @@
         <option value="$PROJECT_DIR$/../Appium_Demo/pom.xml" />
         <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-no-ok.feature" />
         <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/consulta-saldo.feature" />
-        <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature" />
         <option value="$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java" />
+        <option value="$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature" />
       </list>
     </option>
   </component>
@@ -487,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500285023205</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pruebo capability nueva">
+      <created>1500285534639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1500285534639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -740,18 +746,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature">
+    <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/java/cucumberJava/cucumberJava.java">
+    <entry file="file://$PROJECT_DIR$/../Appium_Demo/src/test/resources/cucumberJava/features/login-ok.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+        <state relative-caret-position="224">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
