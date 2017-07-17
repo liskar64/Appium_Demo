@@ -71,22 +71,6 @@ public class cucumberJava {
     }
 
 
-    @Y("^para consultar saldo introduzco el Usuario \"([^\"]*)\" y la Contraseña \"([^\"]*)\"$")
-
-    public void consulta_saldo(String arg1, String arg2) throws AWTException {
-
-        driver.findElement(By.id("user")).sendKeys(arg1);
-
-        driver.findElement(By.id("pass")).sendKeys(arg2);
-
-        driver.findElement(By.id("btnLogin")).click();
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-        }
-
-    }
 
     @Cuando("^pulso en cuenta$")
 
