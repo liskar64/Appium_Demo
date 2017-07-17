@@ -46,8 +46,7 @@ public class cucumberJava {
         capabilities.setCapability("session-override","True");
         try{
           driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
-      //      driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+          driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         } catch (MalformedURLException e) {
             // TODO Auto-generated catch block
