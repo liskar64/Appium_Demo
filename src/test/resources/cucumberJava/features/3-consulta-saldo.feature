@@ -2,15 +2,17 @@
 
    Característica: Consulta del saldo bancario
 
-    Esquema del escenario: entramos a la aplicacion y consultamos el saldo de las cuentas
+    Antecedentes:
+    Dado que me conecte a la aplicacion
 
-      Dado que me conecto a la aplicacion
-      Y para consultar saldo tecleo el Usuario <login> y la Contrasena <pass>
+    Esquema del escenario: una vez logados correctamente consultamos el saldo de las cuentas
 
-      Cuando pulso en cuenta
+    Cuando introduzco el Usuario <login> y la Contrasena <pass>
 
-      Entonces vemos el saldo
+    Y pulso en cuenta
+
+    Entonces veremos el saldo
 
       Ejemplos:
       |login|pass|
-      |"77001622z"|"Ibermatica"|
+      |"77001622Z"|"Ibermatica"|

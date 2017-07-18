@@ -27,7 +27,7 @@ public class cucumberJava {
     String appiumServiceUrl;
 
 
-    @Dado("que me conecto a la aplicacion$")
+    @Dado("que me conecte a la aplicacion$")
 
     public void openDevices(){
 
@@ -43,7 +43,7 @@ public class cucumberJava {
         capabilities.setCapability("platformVersion","5.1.1");
         capabilities.setCapability("browser_Name","Android");
         capabilities.setCapability("app","src/apk/AppiumDemo.apk");
-        capabilities.setCapability("session-override","True");
+        //capabilities.setCapability("session-override","True");
         try{
           driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
           driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -72,20 +72,8 @@ public class cucumberJava {
 
 
 
-    @Cuando("^pulso en cuenta$")
 
-    public void pulso_cuenta(){
-
-        driver.findElement(By.id("lblListHeader")).click();
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-        }
-
-    }
-
-    @Entonces("sale mensaje de error y no podemos entrar$")
+    @Entonces("saldra mensaje de error y no podremos entrar$")
     public void login_no_ok() {
 
 
@@ -108,7 +96,7 @@ public class cucumberJava {
 
     }
 
-    @Entonces("entramos en la aplicacion$")
+    @Entonces("entraremos en la aplicacion$")
     public void login_ok() {
 
         Assert.assertFalse(isElementPresent(By.id("alertMessage")));
@@ -126,7 +114,19 @@ public class cucumberJava {
 
     }
 
-    @Entonces("vemos el saldo$")
+    @Y("^pulso en cuenta$")
+
+    public void pulso_cuenta(){
+
+        driver.findElement(By.id("lblListHeader")).click();
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+
+    }
+    @Entonces("veremos el saldo$")
     public void consulta_saldo() {
 
         Assert.assertTrue(isElementPresent(By.id("listaCuentas")));
@@ -144,17 +144,6 @@ public class cucumberJava {
 
     }
 
-@Y("^para consultar saldo tecleo el Usuario \"([^\"]*)\" y la Contrasena \"([^\"]*)\"$")
-
-public void I_enter_Usuario2_as_and_Contrasena2_as(String arg1, String arg2) throws AWTException {
-
-    driver.findElement(By.id("user")).sendKeys(arg1);
-
-    driver.findElement(By.id("pass")).sendKeys(arg2);
-
-    driver.findElement(By.id("btnLogin")).click();
-
-}
 
     public boolean isElementPresent(By by){
         try {

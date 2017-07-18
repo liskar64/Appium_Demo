@@ -2,13 +2,14 @@
 
    Característica: Login a la aplicacion bancaria fallido
 
-    Esquema del escenario: entrar a la aplicacion con usuario y contraseña incorrectas
+      Antecedentes:
+      Dado que me conecte a la aplicacion
 
-      Dado que me conecto a la aplicacion
+      Esquema del escenario: intentamos entrar a la aplicacion con usuario y contraseña incorrectas
 
       Cuando introduzco el Usuario <login> y la Contrasena <pass>
 
-      Entonces sale mensaje de error y no podemos entrar
+      Entonces saldra mensaje de error y no podremos entrar
 
       Ejemplos:
       |login|pass|

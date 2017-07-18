@@ -2,13 +2,15 @@
 
    Característica: Login a la aplicacion bancaria con exito
 
-    Esquema del escenario: entrar a la aplicacion con usuario y contraseña correctas
 
-      Dado que me conecto a la aplicacion
+     Antecedentes:
+     Dado que me conecte a la aplicacion
 
-      Cuando introduzco el Usuario <login> y la Contrasena <pass>
+     Esquema del escenario: entramos a la aplicacion con usuario y contraseña correctas
 
-      Entonces entramos en la aplicacion
+     Cuando introduzco el Usuario <login> y la Contrasena <pass>
+
+     Entonces entraremos en la aplicacion
 
 Ejemplos:
       |login|pass|
