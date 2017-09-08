@@ -14,4 +14,5 @@
 
 Ejemplos:
       |login|pass|
-      |"77001622z"|"Ibermatica"|
+      |"77001622Z"|"Ibermatica"|
+      |"64026203E"|"Ibermatica"|

@@ -17,6 +17,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.awt.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.*;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class cucumberJava {
@@ -118,7 +120,39 @@ public class cucumberJava {
 
     public void pulso_cuenta(){
 
-        driver.findElement(By.id("lblListHeader")).click();
+        java.util.List<WebElement> elems = driver.findElements(By.id("lblListHeader"));
+
+        elems.get(0).click();
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+
+
+    }
+
+
+    @Y("^pulso en tarjetas$")
+
+    public void pulso_tarjetas(){
+
+        //Dimension size = driver.findElement(By.id("lblListHeader")).getSize();
+        //System.out.println("================");
+        //System.out.println("Size = " + size);
+        //System.out.println("================");
+
+        //driver.findElement(By.id("lblListHeader")).click();
+        //String text = driver.findElement(By.id("lblListHeader")).getText();
+        //System.out.println("Text = " + text);
+
+        int contador=0;
+
+        List<WebElement> elems = driver.findElements(By.id("lblListHeader"));
+
+        elems.get(1).click();
+        //elems.get(1).sendKeys(arg2);
+
 
         try {
             Thread.sleep(5000);
@@ -126,6 +160,36 @@ public class cucumberJava {
         }
 
     }
+
+
+    @Y("^pulso en prestamos$")
+
+    public void pulso_prestamos(){
+
+        //Dimension size = driver.findElement(By.id("lblListHeader")).getSize();
+        //System.out.println("================");
+        //System.out.println("Size = " + size);
+        //System.out.println("================");
+
+        //driver.findElement(By.id("lblListHeader")).click();
+        //String text = driver.findElement(By.id("lblListHeader")).getText();
+        //System.out.println("Text = " + text);
+
+        int contador=0;
+
+        List<WebElement> elems = driver.findElements(By.id("lblListHeader"));
+
+        elems.get(2).click();
+        //elems.get(1).sendKeys(arg2);
+
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+
+    }
+
     @Entonces("veremos el saldo$")
     public void consulta_saldo() {
 
@@ -141,6 +205,50 @@ public class cucumberJava {
         driver.quit();
         System.out.println("Stop appium service");
         appiumService.stop();
+
+    }
+
+    @Entonces("veremos el saldo de la tarjeta")
+    public void consulta_saldo_tarjeta() {
+
+        Assert.assertTrue(isElementPresent(By.id("lblListItem")));
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+
+        //driver.quit();
+
+
+
+        System.out.println("Stop driver");
+        driver.quit();
+        System.out.println("Stop appium service");
+        appiumService.stop();
+
+
+    }
+
+    @Entonces("veremos el saldo de los prestamos")
+    public void consulta_saldo_prestamos() {
+
+        Assert.assertTrue(isElementPresent(By.id("lblListItem")));
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+
+        //driver.quit();
+
+
+
+        System.out.println("Stop driver");
+        driver.quit();
+        System.out.println("Stop appium service");
+        appiumService.stop();
+
 
     }
 
