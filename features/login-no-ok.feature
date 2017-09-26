@@ -11,6 +11,8 @@ Feature: Login no ok
     * I wait for 2 seconds
     Then I enter text "pepepotamo" into field with id "pass"
     * I wait for 2 seconds
+    Then I take a screenshot
+    * I wait for 2 seconds
     Then I press the "ACCEDER" button
     * I wait for 2 seconds
     Then I wait for the view with id "alertMessage" to appear
