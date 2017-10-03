@@ -2,10 +2,10 @@ package cucumberJava; /**
  * Created by Ibermatica on 05/05/2017.
  */
 
-import cucumber.annotation.es.Cuando;
-import cucumber.annotation.es.Dado;
-import cucumber.annotation.es.Entonces;
-import cucumber.annotation.es.Y;
+import cucumber.api.java.es.Cuando;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.es.Entonces;
+import cucumber.api.java.es.Y;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.junit.Assert;
