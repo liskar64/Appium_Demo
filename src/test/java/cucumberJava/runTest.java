@@ -3,14 +3,15 @@ package cucumberJava; /**
  */
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.SnippetType;
 import org.junit.runner.RunWith;
 import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
 //@Cucumber.Options(format = {"pretty", "html:target/cucumber","json:target/cucumber.json"})
-@CucumberOptions(plugin  = {"html:target/cucumber-reports", "json:target/cucumber-reports.json" })
+//@CucumberOptions(plugin  = {"html:target/cucumber-reports", "json:target/cucumber-reports.json" },tags = "@consulta-saldo")
+@CucumberOptions(plugin  = {"html:target/cucumber-reports", "json:target/cucumber-reports.json"})
+
 
 public class    runTest { }
 

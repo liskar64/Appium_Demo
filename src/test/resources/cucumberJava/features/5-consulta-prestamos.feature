@@ -1,5 +1,8 @@
 # language: es
 
+
+@consulta-prestamos
+
    Característica: Consulta de los prestamos
 
 

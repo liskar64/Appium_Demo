@@ -1,7 +1,7 @@
 # language: es
 
+@login-ok
    Característica: Login a la aplicacion bancaria con exito
-
 
      Antecedentes:
      Dado que me conecte a la aplicacion

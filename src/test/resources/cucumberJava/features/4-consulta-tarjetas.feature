@@ -1,5 +1,6 @@
 # language: es
 
+@consulta-tarjetas
    Característica: Consulta de las tarjetas bancarias
 
 

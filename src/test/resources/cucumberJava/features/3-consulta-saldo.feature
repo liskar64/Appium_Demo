@@ -1,5 +1,7 @@
 # language: es
 
+@consulta-saldo
+
    Característica: Consulta del saldo bancario
 
     Antecedentes:

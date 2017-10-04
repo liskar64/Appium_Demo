@@ -1,5 +1,6 @@
 # language: es
 
+@login-not-ok
    Característica: Login a la aplicacion bancaria fallido
 
       Antecedentes:
