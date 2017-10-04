@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3544dcff-eafa-4648-b95d-e84630ef78c0" name="Default" comment="Cambio librerias">
+    <list default="true" id="3544dcff-eafa-4648-b95d-e84630ef78c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/1-login-ok.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/1-login-ok.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/2-login-no-ok.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/2-login-no-ok.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/3-consulta-saldo.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/3-consulta-saldo.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/4-consulta-tarjetas.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/4-consulta-tarjetas.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/5-consulta-prestamos.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/5-consulta-prestamos.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +23,8 @@
       <file leaf-file-name="runTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +35,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
+            <state relative-caret-position="1331">
               <caret line="92" column="54" lean-forward="false" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
               <folding />
             </state>
@@ -804,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507023705680</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Incluyo tags">
+      <created>1507121786191</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1507121786191</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -851,7 +852,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22559172" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19767442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3538206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -882,7 +883,8 @@
     <MESSAGE value="Añado pruebas de calabash" />
     <MESSAGE value="Añado screenshots" />
     <MESSAGE value="Cambio librerias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio librerias" />
+    <MESSAGE value="Incluyo tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incluyo tags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1178,14 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="92" column="54" lean-forward="false" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/cucumberJava/features/1-login-ok.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1212,10 +1206,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1331">
+          <caret line="92" column="54" lean-forward="false" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
