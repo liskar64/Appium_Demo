@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3544dcff-eafa-4648-b95d-e84630ef78c0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium_Demo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/apk/AppiumDemo-old.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/apk/AppiumDemo.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberJava/cucumberJava.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberJava/runTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/1-login-ok.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumberJava/features/1-login-ok.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -707,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507127514287</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Cambio telefono">
+      <created>1530004618912</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1530004618912</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -786,7 +787,8 @@
     <MESSAGE value="Añado screenshots" />
     <MESSAGE value="Cambio librerias" />
     <MESSAGE value="Incluyo tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incluyo tags" />
+    <MESSAGE value="Cambio telefono" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio telefono" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
