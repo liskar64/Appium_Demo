@@ -13,7 +13,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.awt.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -41,11 +40,12 @@ public class cucumberJava {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName","Android");
-        //capabilities.setCapability("deviceName","Xperia M2");
-        //capabilities.setCapability("platformVersion","5.1.1");
-        capabilities.setCapability("deviceName","Aquaris E5");
-        capabilities.setCapability("platformVersion","6.0.1");
+        capabilities.setCapability("deviceName","Xperia M2");
+        capabilities.setCapability("platformVersion","5.1.1");
+        //capabilities.setCapability("deviceName","Aquaris E5");
+        //capabilities.setCapability("platformVersion","6.0.1");
         capabilities.setCapability("browser_Name","Android");
+        //capabilities.setCapability("app","src/apk/app-pre-debug.apk");
         capabilities.setCapability("app","src/apk/AppiumDemo.apk");
         //capabilities.setCapability("session-override","True");
         try{
@@ -66,6 +66,12 @@ public class cucumberJava {
     @Cuando("^introduzco el Usuario \"([^\"]*)\" y la Contrasena \"([^\"]*)\"$")
     public void I_enter_Usuario_as_and_Contrasena_as(String arg1, String arg2) throws AWTException {
 
+          //driver.findElement(By.id("etUser")).sendKeys(arg1);
+
+          //driver.findElement(By.id("etCustomerName")).sendKeys(arg2);
+
+          //driver.findElement(By.id("btn_enter")).click();
+
         driver.findElement(By.id("user")).sendKeys(arg1);
 
         driver.findElement(By.id("pass")).sendKeys(arg2);
@@ -81,7 +87,16 @@ public class cucumberJava {
     public void login_no_ok() {
 
 
+        //Assert.assertTrue(isElementPresent(By.id("message")));
+
         Assert.assertTrue(isElementPresent(By.id("alertMessage")));
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+        }
+
+        //driver.findElement(By.id("button1")).click();
 
 
         try {
@@ -102,6 +117,10 @@ public class cucumberJava {
 
     @Entonces("entraremos en la aplicacion$")
     public void login_ok() {
+
+   //appium-demo     Assert.assertFalse(isElementPresent(By.id("alertMessage")));
+
+        //Assert.assertFalse(isElementPresent(By.id("message")));
 
         Assert.assertFalse(isElementPresent(By.id("alertMessage")));
 

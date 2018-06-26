@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 //@Cucumber.Options(format = {"pretty", "html:target/cucumber","json:target/cucumber.json"})
-@CucumberOptions(plugin  = {"html:target/cucumber-reports", "json:target/cucumber-reports.json" },tags = {"@consulta-saldo,@login-ok"})
+@CucumberOptions(plugin  = {"html:target/cucumber-reports", "json:target/cucumber-reports.json" },tags = {"@login-ok"})
 //@CucumberOptions(plugin  = {"html:target/cucumber-reports", "json:target/cucumber-reports.json"})
 
 
