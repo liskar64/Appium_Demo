@@ -32,7 +32,7 @@ public class cucumberJava {
 
     public void openDevices(){
 
-        String appiumServiceUrl = "http://127.0.0.1:32768/wd/hub";
+        String appiumServiceUrl = "http://127.0.0.1:4723/wd/hub";
 
      //   appiumService = AppiumDriverLocalService.buildDefaultService();
      //   appiumService.start();
