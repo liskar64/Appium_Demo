@@ -24,18 +24,22 @@ public class cucumberJava {
 
     private WebDriver driver;
 
-    AppiumDriverLocalService appiumService;
-    String appiumServiceUrl;
+   //AppiumDriverLocalService appiumService;
+   //  String appiumServiceUrl;
 
 
     @Dado("que me conecte a la aplicacion$")
 
     public void openDevices(){
 
-        appiumService = AppiumDriverLocalService.buildDefaultService();
-        appiumService.start();
-        appiumServiceUrl = appiumService.getUrl().toString();
-        System.out.println("Appium Service Address : - "+ appiumServiceUrl);
+        String appiumServiceUrl = "http://0.0.0.0:4723/wd/hub";
+
+     //   appiumService = AppiumDriverLocalService.buildDefaultService();
+     //   appiumService.start();
+      //  appiumServiceUrl = appiumService.getUrl().toString();
+      //  System.out.println("Appium Service Address : - "+ appiumServiceUrl);
+
+
 
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -46,10 +50,12 @@ public class cucumberJava {
         //capabilities.setCapability("platformVersion","6.0.1");
         capabilities.setCapability("browser_Name","Android");
         //capabilities.setCapability("app","src/apk/app-pre-debug.apk");
-        capabilities.setCapability("app","src/apk/AppiumDemo.apk");
+        //capabilities.setCapability("app","C:/Appium_Demo/src/apk/AppiumDemo.apk");
+        capabilities.setCapability("app","C:/jenkins2/data/jobs/Appium_Demo/workspace/src/apk/AppiumDemo.apk");
         //capabilities.setCapability("session-override","True");
         try{
           driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
+       //  driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
           driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         } catch (MalformedURLException e) {
@@ -110,7 +116,7 @@ public class cucumberJava {
         System.out.println("Compruebo que cambio de version en GitHub3");
         driver.quit();
         System.out.println("Stop appium service");
-        appiumService.stop();
+    //    appiumService.stop();
 
 
     }
@@ -133,7 +139,7 @@ public class cucumberJava {
         System.out.println("Stop driver");
         driver.quit();
         System.out.println("Stop appium service");
-        appiumService.stop();
+    //    appiumService.stop();
 
     }
 
@@ -225,7 +231,7 @@ public class cucumberJava {
         System.out.println("Stop driver");
         driver.quit();
         System.out.println("Stop appium service");
-        appiumService.stop();
+    //    appiumService.stop();
 
     }
 
@@ -246,7 +252,7 @@ public class cucumberJava {
         System.out.println("Stop driver");
         driver.quit();
         System.out.println("Stop appium service");
-        appiumService.stop();
+    //    appiumService.stop();
 
 
     }
@@ -268,7 +274,7 @@ public class cucumberJava {
         System.out.println("Stop driver");
         driver.quit();
         System.out.println("Stop appium service");
-        appiumService.stop();
+    //    appiumService.stop();
 
 
     }
