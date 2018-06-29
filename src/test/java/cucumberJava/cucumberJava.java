@@ -32,7 +32,7 @@ public class cucumberJava {
 
     public void openDevices(){
 
-        String appiumServiceUrl = "http://172.17.0.3:4723/wd/hub";
+      //  String appiumServiceUrl = "http://172.17.0.3:4723/wd/hub";
 
      //   appiumService = AppiumDriverLocalService.buildDefaultService();
      //   appiumService.start();
@@ -54,8 +54,8 @@ public class cucumberJava {
         capabilities.setCapability("app","C:/jenkins2/data/jobs/Appium_Demo/workspace/src/apk/AppiumDemo.apk");
         //capabilities.setCapability("session-override","True");
         try{
-          driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
-       //  driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+        //  driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
+         driver = new AndroidDriver(new URL("http://172.17.0.3:4723/wd/hub"), capabilities);
           driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         } catch (MalformedURLException e) {
