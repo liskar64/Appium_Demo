@@ -51,8 +51,8 @@ public class cucumberJava {
         capabilities.setCapability("browser_Name","Android");
         //capabilities.setCapability("app","src/apk/app-pre-debug.apk");
         //capabilities.setCapability("app","C:/Appium_Demo/src/apk/AppiumDemo.apk");
-        capabilities.setCapability("app","/home/vagrant/jenkins/data/jobs/Appium_Demo/workspace/src/apk/AppiumDemo.apk");
-        //capabilities.setCapability("session-override","True");
+        capabilities.setCapability("app","/opt/AppiumDemo.apk");
+             //capabilities.setCapability("session-override","True");
         try{
         //  driver = new AndroidDriver(new URL(appiumServiceUrl), capabilities);
         //     driver = new AndroidDriver(new URL("http://172.17.0.2:4723/wd/hub"), capabilities);
